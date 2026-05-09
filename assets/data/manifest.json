@@ -1,1 +1,64 @@
-{"version":"v66.12-zyz-split-slim-no-audio","description":"v66.12: 在 v66.11 基础上压缩题卡 JSON 字段，并将 ZYZ Reading 拆为 cards_zyz_reading_part1.json / part2.json，方便 GitHub 上传。页面仍按一个 ZYZ Reading 数据集筛选。","datasets":[{"id":"cambridge_16_20_reading","label":"Cambridge 16-20 Reading","path":"assets/data/cards_cambridge_reading.json","count":800},{"id":"zyz_reading","label":"ZYZ Reading","path":"assets/data/cards_zyz_reading_part1.json","count":1459,"chunk":1,"chunks":2},{"id":"zyz_reading","label":"ZYZ Reading","path":"assets/data/cards_zyz_reading_part2.json","count":1458,"chunk":2,"chunks":2},{"id":"cambridge_16_20_listening","label":"Cambridge 16-20 Listening","path":"assets/data/cards_cambridge_listening.json","count":800},{"id":"highfreq_listening","label":"High-frequency Listening","path":"assets/data/cards_highfreq_listening.json","count":406}],"audioInstallPath":"assets/audio/","audioPack":"liscom_unified_exam_reasoning_site_v66_8_audio_pack.zip","audioSplitIndex":"AUDIO_SPLIT_INDEX.md","dataOptimization":{"mode":"slim_required_ui_fields","zyzSplitFiles":["assets/data/cards_zyz_reading_part1.json","assets/data/cards_zyz_reading_part2.json"],"sizesBeforeBytes":{"cards_cambridge_reading.json":37852583,"cards_zyz_reading.json":105973281,"cards_cambridge_listening.json":26924259,"cards_highfreq_listening.json":13286272},"sizesAfterBytes":{"cards_cambridge_reading.json":2274872,"cards_zyz_reading_part1.json":3366052,"cards_zyz_reading_part2.json":3478333,"cards_cambridge_listening.json":2275043,"cards_highfreq_listening.json":1214528}}}
+{
+  "version": "v66.13-audited-cards-no-audio",
+  "description": "v66.12: 在 v66.11 基础上压缩题卡 JSON 字段，并将 ZYZ Reading 拆为 cards_zyz_reading_part1.json / part2.json，方便 GitHub 上传。页面仍按一个 ZYZ Reading 数据集筛选。",
+  "datasets": [
+    {
+      "id": "cambridge_16_20_reading",
+      "label": "Cambridge 16-20 Reading",
+      "path": "assets/data/cards_cambridge_reading.json",
+      "count": 800
+    },
+    {
+      "id": "zyz_reading",
+      "label": "ZYZ Reading",
+      "path": "assets/data/cards_zyz_reading_part1.json",
+      "count": 1459,
+      "chunk": 1,
+      "chunks": 2
+    },
+    {
+      "id": "zyz_reading",
+      "label": "ZYZ Reading",
+      "path": "assets/data/cards_zyz_reading_part2.json",
+      "count": 1458,
+      "chunk": 2,
+      "chunks": 2
+    },
+    {
+      "id": "cambridge_16_20_listening",
+      "label": "Cambridge 16-20 Listening",
+      "path": "assets/data/cards_cambridge_listening.json",
+      "count": 800
+    },
+    {
+      "id": "highfreq_listening",
+      "label": "High-frequency Listening",
+      "path": "assets/data/cards_highfreq_listening.json",
+      "count": 406
+    }
+  ],
+  "audioInstallPath": "assets/audio/",
+  "audioPack": "liscom_unified_exam_reasoning_site_v66_8_audio_pack.zip",
+  "audioSplitIndex": "AUDIO_SPLIT_INDEX.md",
+  "dataOptimization": {
+    "mode": "slim_required_ui_fields",
+    "zyzSplitFiles": [
+      "assets/data/cards_zyz_reading_part1.json",
+      "assets/data/cards_zyz_reading_part2.json"
+    ],
+    "sizesBeforeBytes": {
+      "cards_cambridge_reading.json": 37852583,
+      "cards_zyz_reading.json": 105973281,
+      "cards_cambridge_listening.json": 26924259,
+      "cards_highfreq_listening.json": 13286272
+    },
+    "sizesAfterBytes": {
+      "cards_cambridge_reading.json": 2274872,
+      "cards_zyz_reading_part1.json": 3366052,
+      "cards_zyz_reading_part2.json": 3478333,
+      "cards_cambridge_listening.json": 2275043,
+      "cards_highfreq_listening.json": 1214528
+    }
+  },
+  "audioNote": "主站包不内置 MP3。听力题卡在 assets/data/cards_cambridge_listening.json 和 assets/data/cards_highfreq_listening.json；音频解压到 assets/audio/...。"
+}

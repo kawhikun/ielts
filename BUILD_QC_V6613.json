@@ -1,0 +1,53 @@
+{
+  "version": "v66.13-audited-cards-no-audio",
+  "total_cards": 4923,
+  "ready_cards": 2040,
+  "review_needed_cards": 2883,
+  "ready_incomplete_evidence_sentence": 0,
+  "all_incomplete_evidence_sentence": 604,
+  "ready_multi_blank_questions": 0,
+  "all_multi_blank_questions": 0,
+  "ready_noise_flags": 0,
+  "by_dataset": {
+    "cambridge_16_20_listening": {
+      "total": 800,
+      "ready": 338,
+      "review_needed": 462,
+      "ready_incomplete_evidence": 0,
+      "ready_multi_blank_questions": 0
+    },
+    "cambridge_16_20_reading": {
+      "total": 800,
+      "ready": 590,
+      "review_needed": 210,
+      "ready_incomplete_evidence": 0,
+      "ready_multi_blank_questions": 0
+    },
+    "highfreq_listening": {
+      "total": 406,
+      "ready": 264,
+      "review_needed": 142,
+      "ready_incomplete_evidence": 0,
+      "ready_multi_blank_questions": 0
+    },
+    "zyz_reading": {
+      "total": 2917,
+      "ready": 848,
+      "review_needed": 2069,
+      "ready_incomplete_evidence": 0,
+      "ready_multi_blank_questions": 0
+    }
+  },
+  "review_flag_counts": {
+    "question_text_noisy_or_too_short": 1777,
+    "question_has_ocr_or_noise": 1776,
+    "question_ocr_placeholder": 1747,
+    "evidence_not_complete_sentence": 604,
+    "question_may_contain_multiple_questions": 389,
+    "question_has_multiple_blanks": 344,
+    "evidence_has_ocr_or_noise": 217,
+    "missing_answer": 163,
+    "manual_evidence_needs_pdf_check": 1
+  },
+  "notes": "重新审核完整原文句、OCR/拼写噪声、一卡多题/多空；默认只展示 ready。"
+}
