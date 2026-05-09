@@ -3,20 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>LISCOM v66.14 Repaired Practice</title>
+<title>LISCOM v66.15 Smart Evidence Practice</title>
 <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
 <header>
   <div class="nav">
-    <div class="brand">LISCOM <span>v66.14 Repaired</span></div>
-    <div class="mini">阅读+听力｜一题一卡｜完整证据句｜总流程只放首页｜音频分散包</div>
+    <div class="brand">LISCOM <span>v66.15 Repaired</span></div>
+    <div class="mini">阅读+听力｜一题一卡｜按题型放原文｜音频分散包</div>
   </div>
 </header>
 <main>
   <section class="panel hero compactHero">
-    <h1>v66.14 题卡修复 + 完整证据句版</h1>
-    <p class="lead"><b>题目 + 至少一句完整的答案证据原文/听力原文</b>先给用户；用户填写答案后，再出示正确答案、解析、同义替换和 OCR 原题页截图。做题流程只在首页展示一次，不再塞进每张卡；已恢复 ZYZ/高频听力中大量被误下架的题面，重新审核一题一卡、完整证据句和音频路径；ZYZ Reading 继续拆成两个小 JSON，方便 GitHub 上传。</p>
+    <h1>v66.15 按题型智能放原文版</h1>
+    <p class="lead"><b>题目 + 按题型匹配的原文证据</b>先给用户：段落标题/主旨题给整段，段落信息匹配题给定位段落，细节/填空/判断题给完整证据句，听力题给含答案的完整话轮。用户填写答案后，再出示正确答案、解析、同义替换和 OCR 原题页截图。</p>
     <div id="stats" class="stats slim"></div>
   </section>
 
@@ -42,6 +42,17 @@
           <li>听后复查词性、拼写、单复数、大小写和字数限制。</li>
         </ol>
       </div>
+    </div>
+  </section>
+
+
+  <section class="panel principlePanel evidencePolicyPanel">
+    <h2>原文应该怎么放：v66.15 统一规则</h2>
+    <div class="examFlowGrid evidenceGrid">
+      <div class="examFlowBox"><h3>段落标题 / 段落概括题</h3><p>放<b>目标段落全文</b>。这类题判断的是整段主旨，不能只截一句。</p></div>
+      <div class="examFlowBox"><h3>段落信息匹配题</h3><p>放<b>答案所在段落或 section 全文</b>。用户需要确认该信息是否真的出现在这一段。</p></div>
+      <div class="examFlowBox"><h3>细节 / 判断 / 填空题</h3><p>放<b>能直接推出答案的完整句</b>；如果代词、转折或比较关系不够清楚，再补相邻一句。</p></div>
+      <div class="examFlowBox"><h3>听力题</h3><p>放<b>含答案的完整听力原文句或完整话轮</b>；有纠正、否定、转折时保留前后一句。</p></div>
     </div>
   </section>
 

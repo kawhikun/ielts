@@ -1,0 +1,23 @@
+{
+  "version": "66.15",
+  "total_cards": 4923,
+  "ready_cards": 3657,
+  "review_cards": 1266,
+  "evidence_scope_counts": {
+    "listening_turn": 1206,
+    "sentence": 3271,
+    "full_paragraph_mainpoint": 58,
+    "full_paragraph_heading": 118,
+    "full_paragraph_info_matching": 270
+  },
+  "ready_evidence_incomplete_count": 0,
+  "ready_evidence_incomplete_samples": [],
+  "ready_multiblank_question_count_rough": 0,
+  "ready_multiblank_samples": [],
+  "zyz_split_files": [
+    "cards_zyz_reading_part1.json",
+    "cards_zyz_reading_part2.json",
+    "cards_zyz_reading_part3.json",
+    "cards_zyz_reading_part4.json"
+  ]
+}

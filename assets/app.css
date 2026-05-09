@@ -30,3 +30,6 @@
 .auditWarn{margin:10px 0;padding:8px 10px;border:1px solid #f4c7c7;background:#fff7f7;border-radius:10px;color:#7a1f1f;font-size:13px;}
 
 .caution{margin:6px 0;color:#7a5b00;background:#fff8e1;border:1px solid #f3d37a;border-radius:8px;padding:6px 8px;}
+
+/* v66.15 smart evidence */
+.evidencePolicyPanel .examFlowBox p{margin:0;color:#475569}.evidencePolicyPanel b{color:#0f766e}.sourceForPractice{max-height:none}.sourceBox{font-size:15px}.cleanCard .sourceBox{line-height:1.75}

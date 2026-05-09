@@ -1,5 +1,5 @@
 {
-  "version": "v66.14-repaired-cards-no-audio",
+  "version": "66.15",
   "description": "v66.12: 在 v66.11 基础上压缩题卡 JSON 字段，并将 ZYZ Reading 拆为 cards_zyz_reading_part1.json / part2.json，方便 GitHub 上传。页面仍按一个 ZYZ Reading 数据集筛选。",
   "datasets": [
     {
@@ -7,22 +7,6 @@
       "label": "Cambridge 16-20 Reading",
       "path": "assets/data/cards_cambridge_reading.json",
       "count": 800
-    },
-    {
-      "id": "zyz_reading",
-      "label": "ZYZ Reading",
-      "path": "assets/data/cards_zyz_reading_part1.json",
-      "count": 1459,
-      "chunk": 1,
-      "chunks": 2
-    },
-    {
-      "id": "zyz_reading",
-      "label": "ZYZ Reading",
-      "path": "assets/data/cards_zyz_reading_part2.json",
-      "count": 1458,
-      "chunk": 2,
-      "chunks": 2
     },
     {
       "id": "cambridge_16_20_listening",
@@ -35,6 +19,30 @@
       "label": "High-frequency Listening",
       "path": "assets/data/cards_highfreq_listening.json",
       "count": 406
+    },
+    {
+      "id": "zyz_reading",
+      "label": "ZYZ Reading",
+      "path": "assets/data/cards_zyz_reading_part1.json",
+      "count": 730
+    },
+    {
+      "id": "zyz_reading",
+      "label": "ZYZ Reading",
+      "path": "assets/data/cards_zyz_reading_part2.json",
+      "count": 730
+    },
+    {
+      "id": "zyz_reading",
+      "label": "ZYZ Reading",
+      "path": "assets/data/cards_zyz_reading_part3.json",
+      "count": 730
+    },
+    {
+      "id": "zyz_reading",
+      "label": "ZYZ Reading",
+      "path": "assets/data/cards_zyz_reading_part4.json",
+      "count": 727
     }
   ],
   "audioInstallPath": "assets/audio/",
