@@ -1,0 +1,47 @@
+{
+  "version": "v66.14-repaired-cards-no-audio-round2",
+  "total_cards": 4923,
+  "ready_cards": 4008,
+  "review_needed_cards": 915,
+  "ready_incomplete_evidence_sentence": 0,
+  "ready_multi_blank_questions": 0,
+  "ready_question_noise": 0,
+  "by_dataset": {
+    "cambridge_16_20_listening": {
+      "total": 800,
+      "ready": 712,
+      "review_needed": 88,
+      "ready_incomplete_evidence": 0,
+      "ready_multi_blank_questions": 0
+    },
+    "cambridge_16_20_reading": {
+      "total": 800,
+      "ready": 699,
+      "review_needed": 101,
+      "ready_incomplete_evidence": 0,
+      "ready_multi_blank_questions": 0
+    },
+    "highfreq_listening": {
+      "total": 406,
+      "ready": 348,
+      "review_needed": 58,
+      "ready_incomplete_evidence": 0,
+      "ready_multi_blank_questions": 0
+    },
+    "zyz_reading": {
+      "total": 2917,
+      "ready": 2249,
+      "review_needed": 668,
+      "ready_incomplete_evidence": 0,
+      "ready_multi_blank_questions": 0
+    }
+  },
+  "review_flag_counts": {
+    "question_has_multiple_blanks": 430,
+    "evidence_not_complete_sentence": 296,
+    "missing_answer": 163,
+    "question_has_ocr_or_noise": 48,
+    "evidence_has_ocr_or_noise": 4,
+    "question_may_contain_multiple_items": 1
+  }
+}

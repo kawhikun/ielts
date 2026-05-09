@@ -1,5 +1,5 @@
 {
-  "version": "v66.13-audited-cards-no-audio",
+  "version": "v66.14-repaired-cards-no-audio",
   "description": "v66.12: 在 v66.11 基础上压缩题卡 JSON 字段，并将 ZYZ Reading 拆为 cards_zyz_reading_part1.json / part2.json，方便 GitHub 上传。页面仍按一个 ZYZ Reading 数据集筛选。",
   "datasets": [
     {
@@ -60,5 +60,5 @@
       "cards_highfreq_listening.json": 1214528
     }
   },
-  "audioNote": "主站包不内置 MP3。听力题卡在 assets/data/cards_cambridge_listening.json 和 assets/data/cards_highfreq_listening.json；音频解压到 assets/audio/...。"
+  "audioNote": "主站包只含题卡 JSON，不含 MP3。Cambridge 音频上传到 assets/audio/cambridge/book{book}/test{test}/section{part}.mp3；高频音频上传到题卡 audioSrcV6614 指定的 assets/audio/highfreq/... 路径。"
 }
