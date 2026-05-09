@@ -1,0 +1,129 @@
+{
+  "version": "v66.11-global-flow-sentence-qc-no-audio",
+  "total_cards": 4923,
+  "ready_cards": 4201,
+  "review_needed_cards": 722,
+  "ready_cards_incomplete_evidence_sentence": 0,
+  "all_cards_incomplete_evidence_sentence": 716,
+  "by_dataset": {
+    "cards_cambridge_reading.json": {
+      "total": 800,
+      "ready": 699,
+      "review_needed": 101,
+      "ready_incomplete_sentence": 0,
+      "all_incomplete_sentence": 101
+    },
+    "cards_zyz_reading.json": {
+      "total": 2917,
+      "ready": 2459,
+      "review_needed": 458,
+      "ready_incomplete_sentence": 0,
+      "all_incomplete_sentence": 457
+    },
+    "cards_cambridge_listening.json": {
+      "total": 800,
+      "ready": 664,
+      "review_needed": 136,
+      "ready_incomplete_sentence": 0,
+      "all_incomplete_sentence": 134
+    },
+    "cards_highfreq_listening.json": {
+      "total": 406,
+      "ready": 379,
+      "review_needed": 27,
+      "ready_incomplete_sentence": 0,
+      "all_incomplete_sentence": 24
+    }
+  },
+  "mode_counts": [
+    [
+      "kept_existing_sentence_fast_qc",
+      2586
+    ],
+    [
+      "selected_complete_sentence_from_fullSourceText",
+      872
+    ],
+    [
+      "audio_full_transcript_sentence_selected_by_answer_term",
+      531
+    ],
+    [
+      "review_existing_fragment_or_placeholder_fast_qc",
+      487
+    ],
+    [
+      "review_existing_fragment_or_placeholder",
+      227
+    ],
+    [
+      "selected_complete_sentence_from_sourceWindowV61",
+      90
+    ],
+    [
+      "kept_existing_complete_sentence",
+      60
+    ],
+    [
+      "selected_complete_sentence_from_sourceWindowV64",
+      40
+    ],
+    [
+      "audio_transcript_sentence_selected_by_answer_term",
+      17
+    ],
+    [
+      "selected_complete_sentence_from_sourceWindowV65",
+      8
+    ],
+    [
+      "selected_complete_sentence_from_sourceWindowV60",
+      5
+    ]
+  ],
+  "notes": "默认只展示 ready；听力优先从 transcriptFull/fullSourceText 中选择含答案词的完整听力原文句。",
+  "samples": [
+    {
+      "id": "b16t1r-q8",
+      "status": "ready",
+      "answer": "violent",
+      "question": "People think of bears as unintelligent and _____.",
+      "evidence": "Bears, on the other hand, seem to be perceived as stupid and in many cases violent."
+    },
+    {
+      "id": "b16t1r-q9",
+      "status": "ready",
+      "answer": "tool",
+      "question": "In Tennoji Zoo, a bear has been seen using a branch as a _____.",
+      "evidence": "The bear used a tree branch on multiple occasions to dislodge a piece of meat hung out of his reach."
+    },
+    {
+      "id": "b16t1r-q10",
+      "status": "ready",
+      "answer": "meat",
+      "question": "This allowed him to knock down some _____.",
+      "evidence": "The bear used a tree branch on multiple occasions to dislodge a piece of meat hung out of his reach."
+    },
+    {
+      "id": "b20t1l-q1",
+      "status": "ready",
+      "answer": "fish",
+      "question": "Good for people especially keen on _____.",
+      "evidence": "If you like fish, it's probably the best restaurant in town for that."
+    },
+    {
+      "id": "b18t1l-q1",
+      "status": "ready",
+      "answer": "DW30 7YZ",
+      "question": "Postcode: _____",
+      "evidence": "SADIE: its DW30 7YZ."
+    },
+    {
+      "id": "hf-listening-1-q1",
+      "status": "ready",
+      "answer": "diving",
+      "question": "Complete the note: either _____ lessons.",
+      "evidence": "[02:35-02:36] The first is instruction in diving in the South China Sea."
+    }
+  ]
+}

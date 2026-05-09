@@ -1,0 +1,113 @@
+{
+  "version": "v66.10",
+  "total_cards": 4923,
+  "ready_cards": 3548,
+  "review_cards": 1375,
+  "evidence_not_ending_with_sentence_punctuation": 0,
+  "sample_not_punct": [],
+  "mode_counts": [
+    [
+      "kept_existing_complete_sentence",
+      4027
+    ],
+    [
+      "expanded_exact_fragment_to_sentence",
+      674
+    ],
+    [
+      "normalized_existing_fragment_to_sentence",
+      87
+    ],
+    [
+      "kept_existing_complete_sentence;hard_truncated",
+      55
+    ],
+    [
+      "expanded_exact_fragment_to_sentence;shortened_to_compact_sentence",
+      26
+    ],
+    [
+      "expanded_answer_word_to_sentence",
+      23
+    ],
+    [
+      "normalized_existing_fragment_to_sentence;shortened_around_answer",
+      11
+    ],
+    [
+      "kept_existing_complete_sentence;shortened_around_answer",
+      10
+    ],
+    [
+      "normalized_existing_fragment_to_sentence;hard_truncated",
+      6
+    ],
+    [
+      "expanded_exact_fragment_to_sentence;hard_truncated",
+      4
+    ]
+  ],
+  "by_dataset": {
+    "cards_cambridge_reading.json": {
+      "total": 800,
+      "ready": 176,
+      "review": 624,
+      "not_sentence_punct": 0,
+      "over_280_chars": 0
+    },
+    "cards_zyz_reading.json": {
+      "total": 2917,
+      "ready": 2583,
+      "review": 334,
+      "not_sentence_punct": 0,
+      "over_280_chars": 0
+    },
+    "cards_cambridge_listening.json": {
+      "total": 800,
+      "ready": 609,
+      "review": 191,
+      "not_sentence_punct": 0,
+      "over_280_chars": 0
+    },
+    "cards_highfreq_listening.json": {
+      "total": 406,
+      "ready": 180,
+      "review": 226,
+      "not_sentence_punct": 0,
+      "over_280_chars": 0
+    }
+  },
+  "sample_cards": [
+    {
+      "id": "b16t1r-q8",
+      "question": "People think of bears as unintelligent and _____.",
+      "evidence": "Bears, on the other hand, seem to be perceived as stupid and in many cases violent.",
+      "answer": "violent"
+    },
+    {
+      "id": "b16t1r-q9",
+      "question": "In Tennoji Zoo, a bear has been seen using a branch as a _____.",
+      "evidence": "The bear used a tree branch on multiple occasions to dislodge a piece of meat hung out of his reach.",
+      "answer": "tool"
+    },
+    {
+      "id": "b16t1r-q10",
+      "question": "This allowed him to knock down some _____.",
+      "evidence": "The bear used a tree branch on multiple occasions to dislodge a piece of meat hung out of his reach.",
+      "answer": "meat"
+    },
+    {
+      "id": "b16t1l-q1",
+      "question": "Create a cover for an _____ so it can be dropped from a height.",
+      "evidence": "design a special cover that goes round an egg.",
+      "answer": "egg"
+    },
+    {
+      "id": "hf-listening-1-q1",
+      "question": "Complete the note: either _____ lessons.",
+      "evidence": "- The first is instruction in diving in the South China Sea.",
+      "answer": "diving"
+    }
+  ],
+  "evidence_over_280_chars": 0
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LISCOM v66.12 ZYZ Split Practice</title>
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="brand">LISCOM <span>v66.12 ZYZ Split</span></div>
+    <div class="mini">阅读+听力｜一题一卡｜完整证据句｜总流程只放首页｜音频分散包</div>
+  </div>
+</header>
+<main>
+  <section class="panel hero compactHero">
+    <h1>v66.12 完整证据句 + ZYZ 拆分版</h1>
+    <p class="lead"><b>题目 + 至少一句完整的答案证据原文/听力原文</b>先给用户；用户填写答案后，再出示正确答案、解析、同义替换和 OCR 原题页截图。做题流程只在首页展示一次，不再塞进每张卡；ZYZ Reading 已拆成两个小 JSON 文件，方便 GitHub 上传。</p>
+    <div id="stats" class="stats slim"></div>
+  </section>
+
+  <section class="panel principlePanel routePanel">
+    <h2>总的考场做题流程</h2>
+    <div class="examFlowGrid">
+      <div class="examFlowBox">
+        <h3>阅读流程</h3>
+        <ol>
+          <li>先看题型分布：标题题、段落信息题优先建立段落大意。</li>
+          <li>边做概括题，边把穿插的信息题定位词（人名、数字、专有名词、否定、比较级）标到对应段落。</li>
+          <li>填空题先看空格前后，预判词性、单复数和字数限制，再回原文找同义替换。</li>
+          <li>判断题只看题干与证据句：同义为 TRUE/YES，矛盾为 FALSE/NO，原文没说为 NOT GIVEN。</li>
+          <li>最后处理难题，不在单个细节题上耗时。</li>
+        </ol>
+      </div>
+      <div class="examFlowBox">
+        <h3>听力流程</h3>
+        <ol>
+          <li>听前先预判场景、说话人关系和答案类型（数字、地点、人名、名词、形容词、字母）。</li>
+          <li>圈定位词和限制条件，预判同义替换、干扰项和可能的更正。</li>
+          <li>听中跟随题号顺序，重点抓转折、否定、纠正、拼写、数字和单位。</li>
+          <li>听后复查词性、拼写、单复数、大小写和字数限制。</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="sectionHead">
+      <div><h2>阅读练习卡片</h2><p class="small">默认只显示可练卡；需要排查乱码/OCR问题时，可切换“只看需复核卡”。OCR 原题页截图放在答案和解析后面。</p></div>
+    </div>
+    <div id="datasetBtns" class="toolbar"></div>
+    <div class="toolbar cleanToolbar">
+      <select id="skill"><option value="all" selected>全部技能</option><option>Reading</option><option>Listening</option></select>
+      <select id="book"><option value="all">全部书/来源</option></select>
+      <select id="test"><option value="all">全部 Test</option></select>
+      <select id="logic"><option value="all">全部题型/逻辑</option></select>
+      <select id="status"><option value="ready" selected>默认只看可练卡</option><option value="review">只看需复核卡</option><option value="all">全部卡</option></select>
+      <input id="qsearch" placeholder="题号，如 1">
+      <input id="search" class="search" placeholder="搜索题目 / 原文 / 答案 / 解析">
+      <button id="clearFilters" class="btn">清空</button>
+    </div>
+    <p id="count" class="small"></p>
+    <div class="toolbar"><button id="prevPage" class="btn">上一页</button><button id="nextPage" class="btn">下一页</button></div>
+    <div id="cards" class="cards cleanCards"></div>
+  </section>
+
+  <section class="panel archivePanel">
+    <div class="sectionHead"><div><h2>整合路径说明</h2><p class="small">如后续要把听力包并回同一个 GitHub Pages 项目，请查看根目录 INTEGRATION_PATHS.md。</p></div></div>
+  </section>
+</main>
+<script src="assets/app.js"></script>
+</body>
+</html>
